@@ -14,6 +14,7 @@
 		CE385E552750FBCF000069AF /* Davaleba_Casatrade.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE385E532750FBCF000069AF /* Davaleba_Casatrade.xcdatamodeld */; };
 		CE385E572750FBD1000069AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE385E562750FBD1000069AF /* Assets.xcassets */; };
 		CE385E5A2750FBD1000069AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE385E582750FBD1000069AF /* LaunchScreen.storyboard */; };
+		CE385E622751158B000069AF /* CustomAnnonation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE385E612751158B000069AF /* CustomAnnonation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		CE385E562750FBD1000069AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE385E592750FBD1000069AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE385E5B2750FBD1000069AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE385E612751158B000069AF /* CustomAnnonation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnonation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				CE385E582750FBD1000069AF /* LaunchScreen.storyboard */,
 				CE385E5B2750FBD1000069AF /* Info.plist */,
 				CE385E532750FBCF000069AF /* Davaleba_Casatrade.xcdatamodeld */,
+				CE385E612751158B000069AF /* CustomAnnonation.swift */,
 			);
 			path = "Davaleba Casatrade";
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			files = (
 				CE385E4F2750FBCF000069AF /* ViewController.swift in Sources */,
 				CE385E4B2750FBCF000069AF /* AppDelegate.swift in Sources */,
+				CE385E622751158B000069AF /* CustomAnnonation.swift in Sources */,
 				CE385E552750FBCF000069AF /* Davaleba_Casatrade.xcdatamodeld in Sources */,
 				CE385E4D2750FBCF000069AF /* SceneDelegate.swift in Sources */,
 			);

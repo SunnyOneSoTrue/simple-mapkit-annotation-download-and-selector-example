@@ -100,15 +100,11 @@ extension ViewController:  MKMapViewDelegate{
     func loadLocations(){
         if ConnectionToExternalSourceIsPresent{
             LoadFromNetworkCall()
-            for annonation in locations{
-                mapkit.addAnnotation(annonation)
-            }
+            addAnnotations()
         }
         else{
             LoadFromCoreData()
-            for annonation in locations{
-                mapkit.addAnnotation(annonation)
-            }
+            addAnnotations()
         }
         
     }
@@ -198,7 +194,14 @@ extension ViewController:  MKMapViewDelegate{
         
     }
     
+    func addAnnotations(){
+        for annonation in locations{
+            mapkit.addAnnotation(annonation)
+        }
+    }
+    
     func LoadFromNetworkCall(){}
+    
 
 }
 
